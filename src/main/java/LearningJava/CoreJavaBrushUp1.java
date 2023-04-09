@@ -19,7 +19,7 @@ public class CoreJavaBrushUp1 {
         day[3] = 4;
         day[4] = 5;
 
-        int[] day2 = {1, 2, 3, 4, 5, 7, 8, 9, 123};
+        int[] day2 = {1, 2, 3, 4, 5, 7, 8, 9, 122};
 //        System.out.println(day2[0]);
 
         for (int i = 0; i < day.length; i++)
@@ -29,7 +29,13 @@ public class CoreJavaBrushUp1 {
             System.out.println(day2[i]);
 
         String[] name = {"Hary", "Utama", "Kurniawan"};
-        for (int i = 0; i < name.length; i++)
-            System.out.println(name[i]);
+//        for (int i = 0; i < name.length; i++)
+//            System.out.println(name[i]);
+
+        //same way as above
+        for(String s:name)
+        {
+            System.out.print(s);
+        }
     }
 }
